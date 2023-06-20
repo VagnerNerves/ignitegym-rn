@@ -17,7 +17,7 @@ const { Navigator, Screen } = createNativeStackNavigator<AuthRoutes>()
 
 export function AuthRoutes() {
   return (
-    <Navigator>
+    <Navigator screenOptions={{ headerShown: false }}>
       <Screen name="signIn" component={SignIn} />
       <Screen name="signUp" component={SignUp} />
     </Navigator>
