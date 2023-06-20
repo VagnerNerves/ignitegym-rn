@@ -21,13 +21,12 @@ export function SignIn() {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
       <ScrollView
-        bg="gray.700"
         contentContainerStyle={{
           flexGrow: 1
         }}
         showsVerticalScrollIndicator={false}
       >
-        <VStack flex={1} bg="gray.700" px={10}>
+        <VStack flex={1} px={10}>
           <Image
             source={BackgroundImg}
             alt="Pessoas Treinando"
