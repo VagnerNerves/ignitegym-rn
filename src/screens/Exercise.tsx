@@ -1,6 +1,6 @@
 import { TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
-import { HStack, Heading, Icon, Text, VStack } from 'native-base'
+import { HStack, Heading, Icon, Image, Text, VStack } from 'native-base'
 import { Feather } from '@expo/vector-icons'
 
 import { AppNavigatorRoutesProps } from '@routes/app.routes'
@@ -38,6 +38,20 @@ export function Exercise() {
             </Text>
           </HStack>
         </HStack>
+      </VStack>
+
+      <VStack p={8}>
+        <Image
+          w="full"
+          h={80}
+          source={{
+            uri: 'https://conteudo.imguol.com.br/c/entretenimento/0c/2019/12/03/remada-unilateral-com-halteres-1575402100538_v2_600x600.jpg'
+          }}
+          alt="Nome do exercicio"
+          mb={3}
+          resizeMode="cover"
+          rounded="lg"
+        />
       </VStack>
     </VStack>
   )
