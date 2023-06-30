@@ -216,6 +216,7 @@ export function Profile() {
                 bg="gray.600"
                 placeholder="E-mail"
                 isDisabled
+                isReadOnly
                 onChangeText={onChange}
                 value={value}
                 errorMessage={errors.email?.message}
