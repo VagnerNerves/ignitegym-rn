@@ -48,6 +48,7 @@ api.registerInterceptTokenManager = signOut => {
               failedQueue.push({
                 onSucess: (token: string) => {
                   originalRequestConfig.headers = {
+                    ...originalRequestConfig.headers,
                     Authorization: `Bearer ${token}`
                   }
                   resolve(api(originalRequestConfig))
@@ -66,18 +67,23 @@ api.registerInterceptTokenManager = signOut => {
               const { data } = await api.post('/sessions/refresh-token', {
                 refresh_token
               })
+
               await storageAuthTokenSave({
                 token: data.token,
                 refresh_token: data.refresh_token
               })
 
-              if (originalRequestConfig.data) {
+              if (
+                originalRequestConfig.data &&
+                !(originalRequestConfig.data instanceof FormData)
+              ) {
                 originalRequestConfig.data = JSON.parse(
                   originalRequestConfig.data
                 )
               }
 
               originalRequestConfig.headers = {
+                ...originalRequestConfig.headers,
                 Authorization: `Bearer ${data.token}`
               }
 
