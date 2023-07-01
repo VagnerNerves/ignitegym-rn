@@ -6,6 +6,8 @@ import * as yup from 'yup'
 
 import { useAuth } from '@hooks/useAuth'
 
+import defaultUserPhotoImg from '@assets/userPhotoDefault.png'
+
 import {
   Center,
   ScrollView,
@@ -72,9 +74,6 @@ const profileSchema = yup.object({
 export function Profile() {
   const [updating, setUpdating] = useState(false)
   const [photoIsLoading, setPhotoIsLoading] = useState(false)
-  const [userPhoto, setUserPhoto] = useState(
-    'https://github.com/VagnerNerves.png'
-  )
 
   const toast = useToast()
   const { user, updateUserProfile } = useAuth()
@@ -119,7 +118,34 @@ export function Profile() {
           })
         }
 
-        setUserPhoto(photoSelected.assets[0].uri)
+        const fileExtension = photoSelected.assets[0].uri.split('.').pop()
+
+        const photFile = {
+          name: `${user.name}.${fileExtension}`.toLowerCase(),
+          uri: photoSelected.assets[0].uri,
+          type: `${photoSelected.assets[0].type}/${fileExtension}`
+        } as any
+
+        const userPhotUploadForm = new FormData()
+        userPhotUploadForm.append('avatar', photFile)
+
+        const avatarUpdatedResponse = await api.patch(
+          '/users/avatar',
+          userPhotUploadForm,
+          {
+            headers: { 'Content-type': 'multipart/form-data' }
+          }
+        )
+
+        toast.show({
+          title: 'Foto Atualizada.',
+          placement: 'top',
+          bgColor: 'green.500'
+        })
+
+        const userUpdated = user
+        userUpdated.avatar = avatarUpdatedResponse.data.avatar
+        updateUserProfile(userUpdated)
       }
     } catch (error) {
       console.log(error)
@@ -176,7 +202,11 @@ export function Profile() {
             />
           ) : (
             <UserPhoto
-              source={{ uri: userPhoto }}
+              source={
+                user.avatar
+                  ? { uri: `${api.defaults.baseURL}/avatar/${user.avatar}` }
+                  : defaultUserPhotoImg
+              }
               alt="Foto do Usuário"
               size={PHOTO_SIZE}
             />
