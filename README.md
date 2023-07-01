@@ -7,77 +7,76 @@
     🔗 <a href="https://URLThisProject.com">https://URLThisProject.com</a> 🔗
   </p> -->
 
-<!-- Write here what the project is about. -->
-
-🚧 Project under construction 🚧
+Developed the Ignite Gym project app, this project has a login where users can register, and upon entering they will have access to exercises and also the exercise execution history, and they can also update their profile data.
 
 </p>
 
-<!-- ## 🧭 Table of contents
+## 🧭 Table of contents
 
 - [🧭 Table of contents](#-table-of-contents)
-- [🎥 Implementation Video](#-implementation-video)
 - [🎨 Layout](#-layout)
-- [👏 Learning and more Implementations](#-learning-and-more-implementations)
 - [💡 Technologies Used](#-technologies-used)
+  - [Mobile](#mobile)
 - [📂 Folder Structure](#-folder-structure)
 - [🚀 Running the Project](#-running-the-project)
   - [Back-end](#back-end)
-  - [Front-end Web](#front-end-web)
-  - [Mobile](#mobile)
-- [📝 Routes](#-routes)
+  - [Mobile](#mobile-1)
 - [🌎 License](#-license)
 - [✒ Author](#-author)
 
-## 🎥 Implementation Video
+<!-- ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
+In the GitHub edit, drag the video that it already puts on github itself. -->
 
 ## 🎨 Layout
 
-Layout developed by [Name](https://www.instagram.com/urlName/)
+Layout developed by: [Rodrigo Gonçalves](https://www.linkedin.com/in/rodrigo-goncalves-santana/) e [Millena Kupsinskü Martins](https://www.linkedin.com/in/millenakmartins/)
 
-[![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/files)
+[![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](<https://www.figma.com/file/cK3B1mWvQi8FJwDuLcREzi/Ignite-Gym-(Community)?type=design&node-id=37%3A6&mode=design&t=3TCm5eQEjIDDg6qA-1>)
 
-## 👏 Learning and more Implementations
+<!-- ## 👏 Learning and more Implementations
 
-Describe what you learned and implemented in the project.
+Describe what you learned and implemented in the project. -->
 
 ## 💡 Technologies Used
 
-- [x] [Vite](https://vitejs.dev/)
+### Mobile
+
+- [x] [React Native](https://reactnative.dev/)
 - [x] [Expo](https://docs.expo.dev/)
-- [x] [React](https://reactjs.org/) `version: "18.2.0"`
-- [x] [React Native](https://reactnative.dev/) `version: "0.71.3"`
 - [x] [TypeScript](https://www.typescriptlang.org/)
-- [x] [Styled Components](https://styled-components.com/)
-- [x] Inform others used in the project
+- [x] [NativeBase](https://nativebase.io/)
+- [x] [React Navigation - Native Stack and Bottom Tabs](https://reactnavigation.org/)
+- [x] [Axios](https://axios-http.com/ptbr/)
+- [x] [Expo ImagePicker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [x] [Expo FileSystem](https://docs.expo.dev/versions/latest/sdk/filesystem/)
+- [x] [React Hook Form](https://react-hook-form.com/)
+- [x] [Yup](https://github.com/jquense/yup)
+- [x] [AsyncStorage](https://docs.expo.dev/versions/latest/sdk/async-storage/)
 
 ## 📂 Folder Structure
 
 ```plainText
-app
+mobile
 .
-├── __tests__
-├── android                     # Native android files
-├── ios                         # Native ios files
+├── assets                      # Images for expo
 ├── src                         # Source files
 │   ├── @types                  # Contains all global definitions of types and interfaces
 │   ├── assets                  # Contains Js bundles assets. e.g: icons, splash, images etc...
 │   ├── components              # Contains all global react components
-│   ├── context                 # All contexts
-│   ├── constants               # Constants files
-│   ├── hooks                   # Cstomized hooks
-│   ├── navigation
-│   ├── screens
-│   ├── services                # Contains external and api services
-│   ├── App                     # Aplication entry
+│   ├── contexts                # Application context
+│   ├── dtos                    # Models Data Base
+│   ├── hooks                   # Application hooks
+│   ├── routes                  # Contains application routes
+│   ├── screens                 # Contains application screens
+│   ├── services                # Config service api
+│   ├── storage                 # Contains saving data in locations.
+│   ├── theme                   # Contains the theme of the application
+│   ├── utils                   # Class utils for system
 .
 .
-├── index                       # Bundle entry
+├── App                         # Bundle entry
 .
-.
-└── README.md
 ```
 
 ## 🚀 Running the Project
@@ -87,13 +86,13 @@ app
 Clone the project
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/VagnerNerves/ignitegym-rn.git
 ```
 
 Enter the project directory
 
 ```bash
-  cd my-project
+  cd ignitegym-rn\server
 ```
 
 Install with dependencies
@@ -105,10 +104,12 @@ Install with dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
-### Front-end Web
+Access the README.md from the server folder
+
+<!-- ### Front-end Web
 
 Clone the project
 
@@ -132,20 +133,20 @@ Start the server
 
 ```bash
   npm run start
-```
+``` -->
 
 ### Mobile
 
 Clone the project
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/VagnerNerves/ignitegym-rn.git
 ```
 
 Enter the project directory
 
 ```bash
-  cd my-project
+  cd ignitegym-rn\mobile
 ```
 
 Install with dependencies
@@ -157,9 +158,10 @@ Install with dependencies
 Start the server
 
 ```bash
-  npx expo start
+  npx run start
 ```
 
+<!--
 - IOS:
 
 ```bash
@@ -170,16 +172,16 @@ Start the server
 
 ```bash
   npx react-native run-android
-```
+``` -->
 
-## 📝 Routes
+<!-- ## 📝 Routes
 
 [![Run in Postman](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-postman.svg)](https://app.getpostman.com/run-collection/link)
-[![Run in Insomnia](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-insomnia.svg)](https://insomnia.rest/run/?label=NAMEPROJECT&uri=LINK)
+[![Run in Insomnia](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-insomnia.svg)](https://insomnia.rest/run/?label=NAMEPROJECT&uri=LINK) -->
 
 ## 🌎 License
 
-This project is under the MIT license. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for more details. -->
+This project is under the MIT license. See the [LICENSE](https://github.com/VagnerNerves/ignitegym-rn/blob/main/LICENSE) file for more details.
 
 ## ✒ Author
 
