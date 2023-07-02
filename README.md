@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200px" alt="Project Title Logo" title="Project Title Logo" src="./mobile/src/assets/series.svg" />
+  <img width="200px" alt="Project Ignite Gim" title="Project Ignite Gim" src="./mobile/src/assets/series.svg" />
 
   <h1 align="center">Ignite Gim</h1>
 
