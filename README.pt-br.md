@@ -63,7 +63,7 @@ Essas telas proporcionam uma experiência abrangente para os usuários do aplica
 
 ## 🎥 Vídeo de Implementação
 
-No GitHub, na edição, arraste o vídeo que já está disponível no próprio GitHub.
+https://github.com/VagnerNerves/ignitegym-rn/assets/40831841/2ff96116-98e4-4641-9df6-7fa2c843e7b6
 
 ## 🎨 Layout
 
