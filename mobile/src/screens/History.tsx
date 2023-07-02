@@ -80,6 +80,7 @@ export function History() {
             </Text>
           )}
           showsVerticalScrollIndicator={false}
+          stickySectionHeadersEnabled={false}
         />
       )}
     </VStack>
