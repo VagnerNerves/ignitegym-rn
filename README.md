@@ -63,7 +63,7 @@ These screens provide a comprehensive experience for users of the Ignite Gym app
 
 ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
+https://github.com/VagnerNerves/ignitegym-rn/assets/40831841/2ff96116-98e4-4641-9df6-7fa2c843e7b6
 
 ## 🎨 Layout
 
