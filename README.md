@@ -1,3 +1,9 @@
+<div align="right">
+
+<a href="README.pt-br.md" alt="Traduzir para o Português Brasil">Traduzir PT-BR</a>
+
+</div>
+
 <p align="center">
   <img width="200px" alt="Project Ignite Gim" title="Project Ignite Gim" src="./mobile/src/assets/series.svg" />
 
@@ -145,7 +151,7 @@ Start the server
   npm run dev
 ```
 
-Access the README.md from the server folder
+Access the README.md file in the server folder to see other commands.
 
 <!-- ### Front-end Web
 
