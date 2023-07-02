@@ -49,7 +49,7 @@ Essas telas proporcionam uma experiência abrangente para os usuários do aplica
 ## 🧭 Índice
 
 - [🧭 Índice](#-índice)
-- [� Vídeo de Implementação](#-vídeo-de-implementação)
+- [🎥 Vídeo de Implementação](#-vídeo-de-implementação)
 - [🎨 Layout](#-layout)
 - [👏 Aprendizado e Mais Implementações](#-aprendizado-e-mais-implementações)
 - [💡 Tecnologias Utilizadas](#-tecnologias-utilizadas)

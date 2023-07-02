@@ -49,7 +49,7 @@ These screens provide a comprehensive experience for users of the Ignite Gym app
 ## 🧭 Table of contents
 
 - [🧭 Table of contents](#-table-of-contents)
-- [� Implementation Video](#-implementation-video)
+- [🎥 Implementation Video](#-implementation-video)
 - [🎨 Layout](#-layout)
 - [👏 Learning and more Implementations](#-learning-and-more-implementations)
 - [💡 Technologies Used](#-technologies-used)
