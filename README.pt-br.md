@@ -54,6 +54,8 @@ Essas telas proporcionam uma experiência abrangente para os usuários do aplica
 - [💡 Tecnologias Utilizadas](#-tecnologias-utilizadas)
   - [Mobile](#mobile)
 - [📂 Estrutura de Pastas](#-estrutura-de-pastas)
+- [🚀 Executando o Projeto](#-executando-o-projeto)
+  - [Back-end](#back-end)
   - [Mobile](#mobile-1)
 - [🌎 Licença](#-licença)
 - [✒ Autor](#-autor)
@@ -98,7 +100,7 @@ Layout desenvolvido por: [Rodrigo Gonçalves](https://www.linkedin.com/in/rodrig
 
 ## 📂 Estrutura de Pastas
 
-````plainText
+```plainText
 mobile
 .
 ├── assets                      # Imagens para o Expo
@@ -119,7 +121,7 @@ mobile
 .
 ├── App                         # Ponto de entrada do pacote
 .
-Copy code
+```
 
 ## 🚀 Executando o Projeto
 
@@ -129,7 +131,7 @@ Clone o projeto
 
 ```bash
   git clone https://github.com/VagnerNerves/ignitegym-rn.git
-````
+```
 
 Acesse o diretório do projeto
 
