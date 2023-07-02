@@ -7,7 +7,36 @@
     🔗 <a href="https://URLThisProject.com">https://URLThisProject.com</a> 🔗
   </p> -->
 
-Developed the Ignite Gym project app, this project has a login where users can register, and upon entering they will have access to exercises and also the exercise execution history, and they can also update their profile data.
+Developed the Ignite Gym project in React Native, it is a fitness-oriented application that provides features for user registration, exercise tracking, and execution history.
+
+Below, I will describe each of the main screens of the application:
+
+- Login Screen:
+
+  - On this screen, users can enter their login credentials, such as username and password, to access the application.
+  - If they don't have an account yet, there is an option to register within the application.
+
+- Registration Screen:
+
+  - In the registration screen, users can fill out a form with their information, such as name, email, and password.
+  - After filling out the form, they can confirm the registration and create an account within the application.
+
+- Main Screen:
+
+  - After successfully logging in, users will be directed to the main screen.
+  - On this screen, they will find a list of available exercises to perform.
+  - Each exercise can be selected to view the execution instructions, which may include a demonstrative video.
+
+- Workout History Screen:
+
+  - In this screen, users can access the history of their previous workout sessions.
+  - Users can revisit their previous sessions to track their progress over time.
+
+- Profile Screen:
+
+  - The profile screen allows users to view and update their personal information, such as name, profile picture, and password change.
+
+These screens provide a comprehensive experience for users of the Ignite Gym application, allowing them to log in, register, perform exercises, track their progress, and manage their personal information.
 
 </p>
 
