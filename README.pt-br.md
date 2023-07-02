@@ -49,6 +49,7 @@ Essas telas proporcionam uma experiência abrangente para os usuários do aplica
 ## 🧭 Índice
 
 - [🧭 Índice](#-índice)
+- [� Vídeo de Implementação](#-vídeo-de-implementação)
 - [🎨 Layout](#-layout)
 - [👏 Aprendizado e Mais Implementações](#-aprendizado-e-mais-implementações)
 - [💡 Tecnologias Utilizadas](#-tecnologias-utilizadas)
@@ -60,9 +61,9 @@ Essas telas proporcionam uma experiência abrangente para os usuários do aplica
 - [🌎 Licença](#-licença)
 - [✒ Autor](#-autor)
 
-<!-- ## 🎥 Vídeo de Implementação
+## 🎥 Vídeo de Implementação
 
-No GitHub, na edição, arraste o vídeo que já está disponível no próprio GitHub. -->
+No GitHub, na edição, arraste o vídeo que já está disponível no próprio GitHub.
 
 ## 🎨 Layout
 
