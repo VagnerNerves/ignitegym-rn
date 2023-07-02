@@ -15,6 +15,7 @@ Developed the Ignite Gym project app, this project has a login where users can r
 
 - [🧭 Table of contents](#-table-of-contents)
 - [🎨 Layout](#-layout)
+- [👏 Learning and more Implementations](#-learning-and-more-implementations)
 - [💡 Technologies Used](#-technologies-used)
   - [Mobile](#mobile)
 - [📂 Folder Structure](#-folder-structure)
@@ -34,9 +35,17 @@ Layout developed by: [Rodrigo Gonçalves](https://www.linkedin.com/in/rodrigo-go
 
 [![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](<https://www.figma.com/file/cK3B1mWvQi8FJwDuLcREzi/Ignite-Gym-(Community)?type=design&node-id=37%3A6&mode=design&t=3TCm5eQEjIDDg6qA-1>)
 
-<!-- ## 👏 Learning and more Implementations
+## 👏 Learning and more Implementations
 
-Describe what you learned and implemented in the project. -->
+- Learned how to use NativeBase for building the interface.
+- Learned to use the Bottom Navigator.
+- Learned to fetch images from the photo gallery using Expo ImagePicker.
+- Learned to use React Hook Form for form control and validation using Yup.
+- Learned to create Contexts and hooks for data passing to other screens.
+- Learned about consuming APIs with Fetch API and Axios.
+- Learned about JWT Authentication and how to use it for data retrieval.
+- Learned to upload images to the database.
+- Learned about refresh tokens to automatically retrieve a new token when it expires.
 
 ## 💡 Technologies Used
 
